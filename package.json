@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "@tailwindcss/cli -i ./src/style.css -o output.css",
+    "dev": "npx @tailwindcss/cli -i src/style.css -o styles.css --watch",
     "start": "concurrently \"npm run dev\" \"jekyll serve\""
   },
   "author": "",
